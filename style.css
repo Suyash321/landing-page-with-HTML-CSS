@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    background-color: red;
+}
+#left{
+    width: 36%;
+    height: 100%;
+    background-color: white;
+}
+#right{
+    width: 32%;
+    height: 50%;
+    background-color: black;
+    float: right;
+}
+#second-right{
+    width: 32%;
+    height: 50%;
+    background-color: blue;
+    float: right;
+}
+#first{
+    width: 100%;
+height: 100%;
+}
+#second{
+    width: 100%;
+    height: 100%;
+}
+#third{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 64%;
+    height: 50%;
+   
+}
+#nav{
+    width: 64%;
+    height: 10%;
+    
+   
+}
+ #a {
+    color: rgb(11, 11, 10);
+   
+position: absolute;
+margin-left: 150px;
+margin-top: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-decoration: underline;
+
+}
+#w{
+    color: bisque;
+    position: absolute;
+margin-left: 250px;
+margin-top: 20px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+
+}
+#h{
+    color:black;
+    position: absolute;
+margin-left: 100px;
+margin-top: 250px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:xx-large;
+font-size: 400%;
+
+
+
+}
+.ri-arrow-left-line{
+    position: absolute;
+    margin-left: 50px;
+ margin-top: 20px;
+ color: rgb(187, 170, 170);
+}
+.ri-twitter-fill{
+    position: absolute;
+    margin-left: 350px;
+    margin-top: 20px;
+    color:blueviolet;
+}
+#oh{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 330px;
+    color:rgb(187, 170, 170) ;
+
+}
+#r{
+    position: absolute;
+    margin-left: 100px;
+margin-top:380px ;
+text-decoration: underline;
+}
+@media (max-width: 500px) {
+    #main {
+        flex-direction: column;
+    }
+
+    #left, #right, #second-right {
+        width: 100%;
+    }
+
+    #third {
+        width: 100%;
+    }
+
+    #a {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    #w {
+        margin-left: 0;
+        margin-top: 10px;
+        text-align: center;
+        position: relative;
+    }
+
+    #h {
+        margin-left: 0;
+        margin-top: 50px;
+        text-align: center;
+        position: relative;
+        font-size: 250%;
+    }
+
+    .ri-arrow-left-line, .ri-twitter-fill {
+        position: relative;
+        margin: 0 auto;
+        display: block;
+        margin-top: 10px;
+    }
+
+    #oh {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+    }
+
+    #r {
+        margin-left: 0;
+        margin-top: 20px;
+        text-align: center;
+        position: relative;
+    }
+}
